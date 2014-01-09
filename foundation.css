@@ -1,0 +1,82 @@
+body {
+	background-color:#F2F2F2;
+}
+
+#content {
+	background-color:#FFF;
+	max-width:80%;
+	padding-bottom:30px;
+	margin-bottom:50px;
+}
+
+#roadmapAccordian img {
+    max-width:100%;
+}
+
+.panel-headingNew {
+    padding: 10px 15px;
+}
+
+.panel-titleNew {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.panel-titleNew a:hover {
+    text-decoration:none;
+	color: #008cba;
+}
+
+.col-md-10 > h4 {
+	font-weight:bold;
+}
+
+
+.centerImg {
+	display:block;
+	margin:auto;
+	vertical-align:middle;
+}
+
+#buttonDiv {
+	text-align:center;
+}
+
+.btn-home {
+	width:300px;
+	margin: 5px;
+}
+
+.btn-homeDiv {
+	display:inline-block;
+}
+
+.reasons {
+	border: 3px solid #008cba;
+	border-radius: 10px;
+	height: 270px;
+	width: 32.2%;
+	margin: 5px;
+	overflow: auto;
+}
+
+.reasons > * {
+	text-align:center;
+}
+
+#addressTable {
+	padding-top:20px;
+}
+
+#addressTable > table {
+	border: 2px solid #008cba;
+	width:80%;
+}
+
+#addressTable > table > * > tr > * {
+	width:40%;
+	border: 2px solid #008cba;
+	font-size:16pt;
+	padding: 5px 0px 5px 5px;
+}
+
