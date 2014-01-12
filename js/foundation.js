@@ -15,5 +15,15 @@ $(document).ready(function() {
 				$(this).collapse('toggle');
 			}
 		});
-	});	
+	});
+	$.ajaxSetup({
+		async: false
+	});     
+	$(".lookup").each(function() {
+		address = $(this).data("address");
+		lookup = $(this);
+		$.getJSON("http://query.yahooapis.com/v1/public/yql?q=select%20p%20from%20html%20where%20url%20%3D%20'http%3A%2F%2Fdogechain.info%2Fchain%2FDogecoin%2Fq%2Faddressbalance%2F" + address + "'&format=json", function(data) {
+			$(lookup).text(Math.round(data.query.results.body.p).toLocaleString());
+		});
+	});
 });

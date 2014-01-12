@@ -70,13 +70,20 @@ body {
 
 #addressTable > table {
 	border: 2px solid #008cba;
-	width:80%;
+	width:100%;
 }
 
 #addressTable > table > * > tr > * {
-	width:40%;
 	border: 2px solid #008cba;
 	font-size:16pt;
 	padding: 5px 0px 5px 5px;
 }
-
+#addressTable > table > * > tr > :first-child {
+	width:35%;
+}
+#addressTable > table > * > tr > :nth-child(2) {
+	width:45%;
+}
+#addressTable > table > * > tr > :nth-child(3) {
+	width:20%;
+}
