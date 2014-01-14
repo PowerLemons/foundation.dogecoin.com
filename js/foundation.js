@@ -18,7 +18,8 @@ $(document).ready(function() {
 	});
 	$.ajaxSetup({
 		async: false
-	});     
+	});
+	
 	$(".lookup").each(function() {
 		address = $(this).data("address");
 		lookup = $(this);
@@ -26,4 +27,29 @@ $(document).ready(function() {
 			$(lookup).text(Math.round(data.query.results.body.p).toLocaleString());
 		});
 	});
+	$("#addressTable").tablesorter();
+    $.tablesorter.addParser({ 
+        // set a unique id 
+        id: 'dogeBalance', 
+        is: function(s) { 
+            // return false so this parser is not auto detected 
+            return false; 
+        }, 
+        format: function(s) { 
+            // format your data for normalization 
+            return s.replace(/,/g,"").replace(/ DOGE/,"").replace(/ DOGE*/,"");
+        }, 
+        // set type, either numeric or text 
+        type: 'numeric' 
+    }); 
+     
+    $(function() { 
+        $("#addressTable").tablesorter({ 
+            headers: { 
+                3: { 
+                    sorter:'dogeBalance' 
+                } 
+            } 
+        }); 
+    }); 
 });
