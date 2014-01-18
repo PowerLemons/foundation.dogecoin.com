@@ -16,6 +16,30 @@ $(document).ready(function() {
 			}
 		});
 	});
+	
+	$('#missionLink').click(function() {
+		$('html, body').animate({
+			scrollTop: $('#missionStatement').offset().top - 75
+		}, 500);
+	});
+
+	$('#listLink').click(function() {
+		$('html, body').animate({
+			scrollTop: $('#criteria').offset().top - 75
+		}, 500);
+	});
+	
+	$('#faqLink').click(function() {
+		$('html, body').animate({
+			scrollTop: $('#faq').offset().top - 75
+		}, 500);
+	});
+	
+	$('.toTop').click(function() {
+		$('html, body').animate({scrollTop: 0}, 500);
+	});
+	
+	
 	$.ajaxSetup({
 		async: false
 	});
