@@ -11,6 +11,7 @@ body {
 
 #roadmapAccordian img {
     max-width:100%;
+	padding-top:10px;
 }
 
 .panel-headingNew {
