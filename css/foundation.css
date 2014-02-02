@@ -1,5 +1,6 @@
 body {
 	background-color:#F2F2F2;
+	padding-top: 50px;
 }
 
 #content {
@@ -115,4 +116,10 @@ body {
 	font-size:10pt;
 	padding-right:20px;
 	text-decoration:underline;
+}
+
+
+.postTime {
+	font-size:8pt;
+	color:#008cba;
 }
