@@ -1,8 +1,53 @@
----
-layout:default
-title: Donate
----
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donate</title>
+	<link href="http://bootswatch.com/yeti/bootstrap.min.css" rel="stylesheet">
+	<link href="css/foundation.css" rel="stylesheet">
+	<style>
+	body {
+		padding-top: 50px;
+	}
+	</style>
+</head>
+<body>
 
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="http://foundation.dogecoin.com/" class="navbar-brand">Dogecoin Foundation</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+		    <li>
+			  <a href="about">About Us</a>
+			</li>
+            <li>
+              <a href="whydonate">Why Donate?</a>
+            </li>
+            <li>
+              <a href="roadmap">Our Initiatives</a>
+            <li>
+              <a href="contact">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="donate">Donate</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div id="content" class="container">
 	      <h1>Donation Directory.</h1>
 		  <h4>You can find more information about these initiatives <b><a href="roadmap">here</a></b>.</h4>
           <p><em>Please note that the addresses of Foundation controlled wallets have recently changed. If you have saved or posted the old addresses elsewhere, please edit them to reflect the changes and tell others to do the same.</em></p>
@@ -76,14 +121,17 @@ title: Donate
 				<td>Charity</td>
 				<td>D5MGiMCmxkpJkLBhKe9oN7h49X3t81e3kp</td>
 				<td><span class="lookup" data-address="D5MGiMCmxkpJkLBhKe9oN7h49X3t81e3kp">???</span> DOGE*</td>
-			  </tr>
-			  <tr>
-				<td>Doge4Kids</td>
-				<td>Spnsored Initiative</td>
-				<td>DTMxdZkWd7aCX1a7DcJmUJs931b1GSBQsk</td>
-				<td><span class="lookup" data-address="DTMxdZkWd7aCX1a7DcJmUJs931b1GSBQsk">???</span> DOGE</td>
-			  </tr>
+			  </tr>						  
 			</tbody>
 			</table>
 		  </div>
 		  <p style="padding-top:20px">* These wallets are not managed by the Dogecoin Foundation and thus balances also represent donations taken from other promotional efforts and that organization's use of the fund.</p>
+	</div>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.13.3/jquery.tablesorter.min.js" type="text/javascript"></script>
+	<script src="js/foundation.js" type="text/javascript"></script>
+	
+</body>
+</html>
