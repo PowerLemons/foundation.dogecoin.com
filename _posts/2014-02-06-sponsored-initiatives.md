@@ -8,7 +8,7 @@ In order to make a distinction between the kinds of initiatives that we support 
 
 Anything that involves payments with Dogecoin is simple to list but since the success of our first promotion for the Jamaican bobsled team, we have been inundated with suggestions for various projects and although they are all worthwhile, it would be impractical for us to run them all.
 
-####Ongoing Initiatives**
+####Ongoing Initiatives
 
 These are the regular initiatives that already exist. Development bounties, listings for charities that directly accept Dogecoin donations, and anything else where the payment of a fund is a simple transfer of Dogecoins without converting them to another currency. These are the types of initiatives that anyone can suggest and have listed provided they meet the criteria laid out on our "About Us" page.
 
