@@ -1,7 +1,7 @@
 ---
 layout: post
 title: So News! Much New.
-post_time: 2 February 2014
+post_time: 6 February 2014
 ---
 
 Greetings fellow shibes!  
