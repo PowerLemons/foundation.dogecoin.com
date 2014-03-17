@@ -4,9 +4,9 @@ title: $10,000 tweet puts Dogecoin fundraiser for clean water in Kenya over $30k
 post_time: 16 March 2014
 ---
 
-<center><img src="http://doge4water.org/images/doge4water-shibe.png" width="200px"/></center>
-
 **March 17, 2014 -- NEW YORK--** A $10,000 tweet sent the [Doge4Water](http://www.doge4water.org) fundraising campaign over its $30,000 goal and set a new standard for the impact of 140 characters. An anonymous Dogecoin philanthropist used twitter to tip 14 million Dogecoin, worth more than $11,000. The surprise tweet sent shockwaves through the Dogecoin reddit community, which had already made more than 4,000 donations totalling 26 million Dogecoin (equivalent to more than $20,000). The Doge4Water campaign benefits charity:water in celebration of World Water Day on March 22nd.
+
+<center><img src="http://doge4water.org/images/doge4water-shibe.png" width="200px"/></center>
 
 *“This was one of the more inventive campaigns we've seen,"* said Paul Young, Director of Digital for charity:water. *"The Doge4Water campaign started with a tweet, harnessed the powerful Reddit community passionate about Dogecoin, and then hit its aggressive goal with a tweet that triggered a donation of Dogecoin worth over $10,000. 100% of the funds raised by the Dogecoin community, once converted into US dollars, will be used to bring clean water to people in need in Kenya through our local partner Action Against Hunger. We're thankful for the support of the Shibes of the Dogecoin community... and all we can say is: WOW!"*
 
