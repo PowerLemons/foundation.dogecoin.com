@@ -1,11 +1,21 @@
 $(document).ready(function() {
 
 	if (window.location.pathname == "/projectz/") {
-		$.getJSON( "https://api.trello.com/1/board/53264ed480a05df96860d413/lists?cards=open&card_fields=name,shortUrl&fields=name&key=9519f5a1e9e53ce1952f006e6e16907a", function( json ) {
+		$.getJSON( "https://api.trello.com/1/board/53264ed480a05df96860d413/lists?cards=open&card_fields=name,shortUrl,desc&fields=name&key=9519f5a1e9e53ce1952f006e6e16907a", function( json ) {
 		  $.each(json, function() {
-		  	console.log(this.name);
+		  	$('.projects').append('<h3>' + this.name + '</h3>');
+		  	$.each(this.cards, function() {
+		  		$('.projects').append('<img src=' + this.shortUrl + '.png />');
+		  		var start_pos = this.desc.indexOf('[') + 1;
+				var end_pos = this.desc.indexOf(']',start_pos);
+				var address = this.desc.substring(start_pos,end_pos);
+				if (address.charAt(0) == "D") {
+		  		$('.projects').append('<span class="label label-success"><span class="lookup" data-address="' + address + '""></span> DOGE</span>');
+		  		}
+		  	});
 		  });
 		 });
+		doLookup();
 	}
 
 	$('#bottomPanel').click(function() {
@@ -53,6 +63,7 @@ $(document).ready(function() {
 		async: false
 	});
 	
+	function doLookup() {
 	$(".lookup").each(function() {
 		address = $(this).data("address");
 		lookup = $(this);
@@ -60,8 +71,9 @@ $(document).ready(function() {
 			$(lookup).text(Math.round(data.query.results.body.p).toLocaleString());
 		});
 	});
-	
-	
+	}
+
+	doLookup();
 	
 	$('#addressTableDiv').click(function() {
 		$("#addressTable").tablesorter();
