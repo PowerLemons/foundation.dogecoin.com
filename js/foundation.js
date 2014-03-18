@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	if (window.location.pathname == "/projectz/") {
-		$.getJSON( "https://trello.com/1/Boards/IGxxtug3/lists?cards=open&card_fields=name,shortUrl&fields=name", function( json ) {
+		$.getJSON( "https://api.trello.com/1/board/53264ed480a05df96860d413/lists?cards=open&card_fields=name,shortUrl&fields=name", function( json ) {
 		  $.each(json, function() {
 		  	console.log(this.name);
 		  });
