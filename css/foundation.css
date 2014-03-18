@@ -123,3 +123,7 @@ body {
 	font-size:8pt;
 	color:#008cba;
 }
+
+.trello-card {
+	padding: 3px;
+}

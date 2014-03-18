@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
-	if (window.location.pathname == "/projectz/") {
+	if (window.location.pathname == "/projects/") {
 		$.getJSON( "https://api.trello.com/1/board/53264ed480a05df96860d413/lists?cards=open&card_fields=name,shortUrl,desc&fields=name&key=9519f5a1e9e53ce1952f006e6e16907a", function( json ) {
 		  $.each(json, function() {
 		  	$('.projects').append('<h3>' + this.name + '</h3>');
 		  	$.each(this.cards, function() {
-		  		$('.projects').append('<img src=' + this.shortUrl + '.png />');
+		  		$('.projects').append('<img class="trello-card" src=' + this.shortUrl + '.png />');
 		  	});
 		  });
 		 });
