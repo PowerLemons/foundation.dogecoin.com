@@ -5,7 +5,7 @@ $(document).ready(function() {
 		  $.each(json, function() {
 		  	$('.projects').append('<h3>' + this.name + '</h3>');
 		  	$.each(this.cards, function() {
-		  		$('.projects').append('<a href="' + this.shortURL + '"><img class="trello-card" src=' + this.shortUrl + '.png /></a>');
+		  		$('.projects').append('<a href="' + this.shortUrl + '"><img class="trello-card" src=' + this.shortUrl + '.png /></a>');
 		  	});
 		  });
 		 });
