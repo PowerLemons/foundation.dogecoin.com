@@ -109,7 +109,6 @@ body {
 	cursor:pointer
 }
 
-
 .toTop {
 	float:right;
 	cursor:pointer;
@@ -118,7 +117,6 @@ body {
 	text-decoration:underline;
 }
 
-
 .postTime {
 	font-size:8pt;
 	color:#008cba;
@@ -126,4 +124,5 @@ body {
 
 .trello-card {
 	padding: 3px;
+	max-width: 100%;
 }
