@@ -1,6 +1,10 @@
-body {
-	background-color:#F2F2F2;
-	padding-top: 50px;
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
+hr {
+	border-color: grey;
 }
 
 #content {
@@ -13,6 +17,20 @@ body {
 #roadmapAccordian img {
     max-width:100%;
 	padding-top:10px;
+}
+
+.white {
+	color: white !important;
+}
+
+.navbar-brand, .navbar-nav li a {
+	color: white !important; 
+    padding-top: 15px;
+	font-size: 1.3em;
+}
+
+.transparent {
+    background: rgba(0,0,0,0.4);
 }
 
 .panel-headingNew {
