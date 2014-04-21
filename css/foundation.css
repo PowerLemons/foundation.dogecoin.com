@@ -29,6 +29,10 @@ hr {
 	font-size: 1.3em;
 }
 
+.navbar  {
+	border: 0px;
+}
+
 .transparent {
     background: rgba(0,0,0,0.4);
 }
