@@ -29,6 +29,10 @@ hr {
 	font-size: 1.3em;
 }
 
+.navbar-colorchange:hover {
+	color: #C7C7CC !important; 
+}
+
 .navbar  {
 	border: 0px;
 }
