@@ -25,18 +25,18 @@ hr {
 
 .navbar-brand, .navbar-nav li a {
 	color: white !important; 
-    line-height: 65px;
-    height: 65px;
-    padding-top: 0;
+    line-height: 65px !important;
+    height: 65px !important;
+    padding-top: 0 !important;
 	font-size: 1.3em;
 }
 
 @media (max-width: 979px) {
 	.navbar-brand, .navbar-nav li a {
 		color: white !important; 
-		line-height: 50px;
-		height: 50px;
-		padding-top: 0;
+		line-height: 50px !important;
+		height: 50px !important;
+		padding-top: 0 !important;
 		font-size: 1.3em;
 	}
 }
@@ -50,7 +50,7 @@ hr {
 }
 
 .navbar  {
-	border: 0px;
+	border: 0px !important;
 }
 
 .transparent {
