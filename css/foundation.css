@@ -3,8 +3,9 @@ html, body{
     padding:0px;
 }
 
-hr {
-	border-color: grey;
+.fadein-line { 
+    height: 2px;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #D7D7D7));
 }
 
 #content {
